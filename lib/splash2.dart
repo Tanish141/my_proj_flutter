@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'splash3.dart';
 import 'package:lottie/lottie.dart';
-
+import 'package:flutter_svg/flutter_svg.dart';
 class Splash2 extends StatelessWidget {
   const Splash2({Key? key});
 
@@ -137,6 +137,13 @@ class Splash2 extends StatelessWidget {
                               decoration: const ShapeDecoration(
                                 color: Color(0xFF2E7A97),
                                 shape: OvalBorder(),
+                              ),
+                              child: Center(
+                                child: SvgPicture.asset(
+                                  'lib/icon assets/arrow.svg', // Replace with the path to your SVG file
+                                  width: 24,
+                                  height: 24,
+                                ),
                               ),
                             ),
                           ),
