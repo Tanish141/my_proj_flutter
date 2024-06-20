@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart'; // Import SystemChrome
 import 'splash1.dart';
-import 'splash2.dart';
-import 'splash3.dart';
+
 
 void main() {
   runApp(const MyApp());
