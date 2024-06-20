@@ -141,7 +141,7 @@ class Splash1 extends StatelessWidget {
                               ),
                               child: Center(
                                 child: SvgPicture.asset(
-                                  'lib/icon assets/arrow.svg', // Replace with the path to your SVG file
+                                  'lib/icon_assets/arrow.svg', // Replace with the path to your SVG file
                                   width: 24,
                                   height: 24,
                                 ),
